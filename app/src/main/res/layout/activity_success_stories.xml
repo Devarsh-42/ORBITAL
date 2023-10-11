@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toqols="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_15sdp">
+
+        <ImageView
+            android:id="@+id/leftback"
+            android:layout_width="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:src="@drawable/leficon" />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_marginLeft="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:background="@drawable/orbital_text">
+        </ImageView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/orbitron"
+            android:text="Breakthrough"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28ssp" />
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Horizontal LinearLayout for category cards side by side -->
+
+            <LinearLayout
+                android:id="@+id/JamesWeb"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/jamesbg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="277dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="James Webb"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ARTEMIS2"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/artimes"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_75sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="ARTEMIS II"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SolarProbe"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/solarprbebanner"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="277dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Parkore Solar Probe"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/MoxieMarsOS"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/marsrover"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="277dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="MOXIE Mars"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

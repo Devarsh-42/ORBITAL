@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ORBITAL</string>
+    <string name="search_text">Search</string>
+    <string name="logo_name">ORBITAL</string>
+    <string name="welcome_to_space_world">Welcome To ORBITAL</string>
+    <string name="About">Open science is the movement to make scientific research an unhindered access transforming its reach to infinite . It empowers the open sharing of data, information, and knowledge within the scientific community and enhances wider public to accelerate scientific research and understandings.
+It escalates the collaborative culture ,embracing future development in technology that holds its stakes upon opening the chattels of sciences. Open science is a commitment to stand with important questions that don’t stand alone.
+    </string>
+    <string name="WhyDo">●  Broadens participation and fosters greater collaboration in scientific investigations by lowering the barriers to entry into scientific exploration
+\n●  Generates greater impact and more citations to scientific results
+    </string>
+    <string name="link">
+        For More Information\thttps://science.nasa.gov/researchers/open-science/
+    </string>
+    <string name="head1">
+       The James Webb Space Telescope,  is an astronomical observatory that represents a significant advancement in our quest to explore the cosmos. Named after James E. Webb ,this cutting-edge telescope is poised to revolutionize our understanding of the universe.
+the James Webb Space Telescope sees the universe in light that is invisible to human eyes. This light is called infrared radiation, and we can feel it as heat.
+    </string>
+    <string name="head2">
+        Telescope will enhance human eye to dig deep in cosmos , providing first colorful images of universe and tarantula nebula and neptune and its rings in decades.
+In October 2022, Webb captured a Wolf-Rayet star known as WR-140, this furthermore provided information regarding the time formation of dust coherence to the orbital period.
+The foremost magnificent achievement of webb include better resolution of “pillar of creation” providing resource for the formation of star.
+    </string>
+    <string name="head3">
+        Artemis 2 is the second mission of Artemis legacy of NASA , restarting human travel outside the blue sphere, in ORION spacecraft , outlined to launch in november 24.
+the 10-day flight will test NASA\'s foundational human deep space exploration capabilities, the voyage will include 4 passengers including a women .
+the mission is also planned to be the first crewed launch from Launch Complex 39B of the Kennedy Space Center since STS-116 in 2006.
+    </string>
+    <string name="head4">
+        Artemis 2 will be flying one canadian and three american becoming the first to fly astronauts to the vicinity of the moon , since APOLLO mission 1972.
+        Originally the The crewed flight was designated to capture samples from a captured asteroids in lunar orbit and now is plotted to take man to the farthest distance possible
+    </string>
+    <string name="head5">
+        The tagline of the Probe is “TOUCH THE SUN”, is an extraordinary spacecraft designed to embark on an audacious mission to study the closest celestial body to Earth.the suite of sophisticated instruments released itself from the formidable heat of  the corona.
+    </string>
+    <string name="head6">
+        Among the first findings from the Probe was strange flips, or switchbacks, in the magnetic field as the spacecraft approached the sun , it further provided information about magnetic funnel in the solar surface.
+        One of the primary objectives of the Solar Probe is to explore the origin and acceleration of the solar wind, emanating from the Sun.
+        With every orbit bringing it closer, the probe faces brutal heat and radiation to providing humanity with unprecedented observations, visiting the only star we can study up close.
+
+    </string>
+</resources>

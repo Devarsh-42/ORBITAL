@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg4"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/leftback"
+            android:layout_width="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:src="@drawable/leficon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="ORBITAL"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:background="@drawable/orbital_text"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:padding="@dimen/_4sdp" />
+    </LinearLayout>
+
+    <!-- Content Inside ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="16dp"
+                android:text="James Web Telescope"
+                android:textColor="#EBBF4F"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/InfoVideo1"
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/jamesweb_image" />
+            <TextView
+                android:id="@+id/SubHed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="16dp"
+                android:text="BORN AS WANDERERS"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:fontFamily="serif"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="10dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="15dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:scrollbarStyle="insideOverlay"
+                android:text="@string/head1"
+                android:textColor="#FFFDFD"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/jameswebb_icon">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="16dp"
+                android:text="WAS IT TINY ,I SEE IT BIG"
+                android:textColor="#FDFBFB"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <TextView
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:fontFamily="serif"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="10dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="15dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:scrollbarStyle="insideOverlay"
+                android:text="@string/head2"
+                android:textColor="#FBFBFB"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/BTNInfo"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20sdp"
+                android:background="@color/design_default_color_primary_dark"
+                android:text="For More Information"
+                android:layout_marginBottom="15dp">
+            </Button>
+            <Button
+                android:id="@+id/BTNPaper"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20sdp"
+                android:background="@color/design_default_color_primary_dark"
+                android:text="Harvard Research Paper"
+                android:layout_marginBottom="15dp">
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

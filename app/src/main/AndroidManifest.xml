@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ORBITAL"
+        tools:targetApi="31">
+        <activity
+            android:name=".MoxieMarsStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SolarProbeStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtimesStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JamesWebStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FutureProspectsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhyNotOpenScienceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpenAccessResourceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityImpactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessStoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutOpenScienceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Category3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Category2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Category1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
